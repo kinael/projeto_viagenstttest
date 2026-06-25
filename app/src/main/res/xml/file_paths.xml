@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Diretório onde as fotos capturadas pela câmera são salvas -->
+    <files-path
+        name="trip_photos"
+        path="trip_photos/" />
+    <cache-path
+        name="cache_photos"
+        path="." />
+</paths>
