@@ -13,7 +13,7 @@ package com.example.projeto_viagens.data.remote
 object GeminiConfig {
 
     // 🔑 Cole sua API key do Gemini aqui:
-    const val API_KEY = "AQ.Ab8RN6J8ktIVaU4IsWlfMMDIxfFKYMYeP-i7ajc-lPiW0-Emkw"
+    const val API_KEY = "chave"
 
     // Modelo solicitado na tarefa
     const val MODEL = "gemini-2.5-flash"
