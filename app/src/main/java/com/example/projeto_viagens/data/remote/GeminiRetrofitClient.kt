@@ -5,11 +5,6 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
-/**
- * Cliente Retrofit singleton para a API do Gemini.
- * Usa Gson como conversor e timeouts maiores, pois a geração do roteiro
- * pode levar alguns segundos.
- */
 object GeminiRetrofitClient {
 
     private val okHttpClient: OkHttpClient by lazy {
