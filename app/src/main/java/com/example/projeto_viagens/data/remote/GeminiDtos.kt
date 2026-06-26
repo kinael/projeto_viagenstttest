@@ -1,22 +1,5 @@
 package com.example.projeto_viagens.data.remote
 
-/**
- * DTOs (Data Transfer Objects) que espelham o corpo de request/response da
- * API generateContent do Gemini.
- *
- * Request:
- * {
- *   "contents": [ { "parts": [ { "text": "..." } ] } ],
- *   "generationConfig": { "temperature": 0.7 }
- * }
- *
- * Response:
- * {
- *   "candidates": [ { "content": { "parts": [ { "text": "..." } ] } } ]
- * }
- */
-
-// ---------- Request ----------
 
 data class GeminiRequest(
     val contents: List<GeminiContent>,
@@ -35,7 +18,6 @@ data class GeminiGenerationConfig(
     val temperature: Double = 0.7
 )
 
-// ---------- Response ----------
 
 data class GeminiResponse(
     val candidates: List<GeminiCandidate>? = null,
